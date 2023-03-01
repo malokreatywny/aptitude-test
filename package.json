@@ -8,17 +8,19 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "jasmine-node spec"
+    "test": "jasmine"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "restify": "^8.5.1",
     "sequelize": "^6.6.4",
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.1.4"
   },
   "devDependencies": {
+    "jasmine-expect": "^5.0.0",
     "jasmine-node": "^3.0.0",
+    "jest-matchers": "^20.0.3",
     "request": "^2.88.2"
   }
 }
